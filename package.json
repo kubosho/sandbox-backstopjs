@@ -1,0 +1,28 @@
+{
+  "name": "sandbox-backstopjs",
+  "version": "1.0.0",
+  "description": "Sandbox for BackstopJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kubosho/sandbox-backstopjs.git"
+  },
+  "keywords": [
+    "BackstopJS",
+    "Sandbox"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubosho/sandbox-backstopjs/issues"
+  },
+  "homepage": "https://github.com/kubosho/sandbox-backstopjs#readme",
+  "devDependencies": {
+    "backstopjs": "^1.0.3",
+    "casperjs": "^1.1.0-beta3",
+    "phantomjs": "^2.1.2"
+  }
+}
