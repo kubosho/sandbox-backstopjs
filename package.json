@@ -4,7 +4,8 @@
   "description": "Sandbox for BackstopJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/backstopjs/"
+    "setup": "npm i -g gulp casperjs phantomjs@1 && npm i",
+    "test": "cd node_modules/backstopjs/ && gulp reference && gulp test && cd ../../"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,6 @@
   },
   "homepage": "https://github.com/kubosho/sandbox-backstopjs#readme",
   "devDependencies": {
-    "backstopjs": "^1.0.3",
-    "casperjs": "^1.1.0-beta3",
-    "phantomjs": "^2.1.2"
+    "backstopjs": "^1.0.3"
   }
 }
