@@ -1,0 +1,31 @@
+{
+  "compareConfig": {
+    "testPairs": [
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_body_0_iphone.png",
+        "test": "../../backstop_data/bitmaps_test/20160127-122417/0_0_body_0_iphone.png",
+        "selector": "body",
+        "fileName": "0_0_body_0_iphone.png",
+        "label": "テストページ",
+        "misMatchThreshold": 0.1
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_body_1_iphone6plus.png",
+        "test": "../../backstop_data/bitmaps_test/20160127-122417/0_0_body_1_iphone6plus.png",
+        "selector": "body",
+        "fileName": "0_0_body_1_iphone6plus.png",
+        "label": "テストページ",
+        "misMatchThreshold": 0.1
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_body_2_nexus5x.png",
+        "test": "../../backstop_data/bitmaps_test/20160127-122417/0_0_body_2_nexus5x.png",
+        "selector": "body",
+        "fileName": "0_0_body_2_nexus5x.png",
+        "label": "テストページ",
+        "misMatchThreshold": 0.1
+      }
+    ]
+  },
+  "lastConfigHash": "81ab2e8e2fa72bb8885e121b6ab1ebe4e53f6b69"
+}

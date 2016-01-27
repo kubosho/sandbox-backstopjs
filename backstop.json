@@ -19,17 +19,10 @@
   "scenarios": [
     {
       "label": "テストページ",
-      "url": "../index.html",
+      "url": "../../index.html",
       "hideSelectors": [],
-      "removeSelectors": [
-        "#carbonads-container"
-      ],
+      "removeSelectors": [],
       "selectors": [
-        "header",
-        "main",
-        "body .bs-docs-featurette:nth-of-type(1)",
-        "body .bs-docs-featurette:nth-of-type(2)",
-        "footer",
         "body"
       ],
       "readyEvent": null,
